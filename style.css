@@ -13,11 +13,6 @@
 .white {
 	list-style: none;
 }
-.navbar {
-	display: flex;
-	flex-direction: row;
-	
-}
 #li6 > a {
 	text-align: center;
 	display: block;
@@ -51,4 +46,14 @@ p {
 	height: 400px;
 	margin-left: -8px;
 	margin-top: -8px;
+}
+.rect {
+	display: flex;
+	flex-direction: row;
+	padding-top: 900px;
+	margin-left: 315px;
+	list-style: none;
+}
+.rect > li {
+   padding-right: 25px;
 }
