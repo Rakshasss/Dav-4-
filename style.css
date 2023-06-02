@@ -13,6 +13,15 @@
 .white {
 	list-style: none;
 }
+.white {
+	display: flex;
+	flex-direction: row;
+    justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 25px;
+	margin-left: 500px;
+}
 #li6 > a {
 	text-align: center;
 	display: block;
@@ -23,6 +32,10 @@
 	color: #171717;
 	padding: 20px 20px 20px 20px;
 }
+#li1 > a {
+	border-bottom: 1px solid;
+	padding-bottom: 5px;
+}
 #main {
 	position: absolute;
 	top: 215px;
@@ -31,7 +44,7 @@
 	height: 600px;
 	margin-top: 30px;
 }
-p {
+h3 {
 	color:#171717;
 	position: absolute;
 	top: 845px;
@@ -39,13 +52,13 @@ p {
 	width: 714px;
 	height: 33px;	
 }
-#sect {
+#head {
 	background-color: blue;
 	position: absolute;
 	width: 100%;
 	height: 400px;
 	margin-left: -8px;
-	margin-top: -8px;
+	margin-top: -17px;
 }
 .rect {
 	display: flex;
@@ -56,4 +69,10 @@ p {
 }
 .rect > li {
    padding-right: 25px;
+}
+.para {
+	list-style: none;
+	max-width: 50%;
+	text-align: left;
+	margin-left: 450px;
 }
